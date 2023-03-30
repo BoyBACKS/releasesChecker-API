@@ -64,7 +64,7 @@ public static void main(String[] args) {
 ## Libraries and API's
 
 * [JSONSimple](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple)
-* [DiscordAPI](https://docs.github.com/)
+* [GitHubAPI](https://docs.github.com/)
 * [JitPack](https://jitpack.io/)
 
 ## Installation
