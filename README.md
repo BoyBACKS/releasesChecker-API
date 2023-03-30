@@ -1,7 +1,7 @@
 # Release Checker - API
 Easy to use and lightweight api for notify about new release version from GitHub
 
-## Tabele of Contentes
+## Table of Contentes
 
 1. [About](#About)
 2. [Short Wiki](#Short-Wiki)
