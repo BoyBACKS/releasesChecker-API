@@ -8,7 +8,7 @@ Easy to use and lightweight api for notify about new release version from GitHub
    * [Method Summary](#Method-Summary)
    * [Errors](#Errors)
    * [Working Example](#Working-Example)
-3. [Libraries and API's](#Libraries-and-API's)
+3. [Libraries and API's](#libraries-and-apis)
 4. [Installation](#Installation)
 5. [Contributing](#contributing)
 6. [ToDo](#ToDo)
