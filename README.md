@@ -35,7 +35,7 @@ In case of errors with API please describe it in Issues.
 |---------|-------------------------------------------------------------|------------------------------------|
 | String  | getVersion(**String** version)                              | Get the latest release version     |
 | String  | getRepository(**String** author, **String** repositoryName) | Get the author and repository name |
-| boolean | releaseChecker()                                            | Gets state of latest release       |
+| boolean | releaseCheck()                                            | Gets state of latest release       |
 
 
 ### Errors
@@ -52,7 +52,7 @@ In case of errors with API please describe it in Issues.
 public static void main(String[] args) {
   getVersion("v2.0");
   getRepository("boybacks", "xorencrypt");
-  if (releaseChecker()) {
+  if (releaseCheck()) {
     System.out.println("There is no new versions");
   }
   else {
