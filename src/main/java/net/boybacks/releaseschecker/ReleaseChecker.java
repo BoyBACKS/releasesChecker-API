@@ -7,10 +7,10 @@ import java.net.*;
 
 public class ReleaseChecker {
 
-  public static String version;
-  public static String repositoryURL;
+  private static String version;
+  private static String repositoryURL;
 
-  public static boolean releaseChecker() {
+  public static boolean releaseCheck() {
     if (version == null) {
       System.out.println("[ERROR] Assign a version using getVersion(). Setting default value as FALSE.");
       return false;
@@ -39,18 +39,4 @@ public class ReleaseChecker {
   public static String getRepository(String author, String repositoryName) {
     return repositoryURL = author + "/" + repositoryName;
   }
-
-//Here you can see example release checker!
-
-//  public static void main(String[] args) {
-//    getVersion("v2.0");
-//    getRepository("boybacks", "xorencrypt");
-//    if (releaseChecker()) {
-//      System.out.println("There is no new versions");
-//    }
-//    else {
-//      System.out.println("There is new version");
-//    }
-//  }
-
 }
