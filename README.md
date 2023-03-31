@@ -1,14 +1,14 @@
 # Release Checker - API
 Easy to use and lightweight api for notify about new release version from GitHub
 
-## Tabele of Contentes
+## Table of Contentes
 
 1. [About](#About)
 2. [Short Wiki](#Short-Wiki)
    * [Method Summary](#Method-Summary)
    * [Errors](#Errors)
    * [Working Example](#Working-Example)
-3. [Libraries and API's](#Libraries-and-API's)
+3. [Libraries and API's](#libraries-and-apis)
 4. [Installation](#Installation)
 5. [Contributing](#contributing)
 6. [ToDo](#ToDo)
@@ -35,7 +35,7 @@ In case of errors with API please describe it in Issues.
 |---------|-------------------------------------------------------------|------------------------------------|
 | String  | getVersion(**String** version)                              | Get the latest release version     |
 | String  | getRepository(**String** author, **String** repositoryName) | Get the author and repository name |
-| boolean | releaseChecker()                                            | Gets state of latest release       |
+| boolean | releaseCheck()                                            | Gets state of latest release       |
 
 
 ### Errors
@@ -52,7 +52,7 @@ In case of errors with API please describe it in Issues.
 public static void main(String[] args) {
   getVersion("v2.0");
   getRepository("boybacks", "xorencrypt");
-  if (releaseChecker()) {
+  if (releaseCheck()) {
     System.out.println("There is no new versions");
   }
   else {
@@ -64,7 +64,7 @@ public static void main(String[] args) {
 ## Libraries and API's
 
 * [JSONSimple](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple)
-* [DiscordAPI](https://docs.github.com/)
+* [GitHubAPI](https://docs.github.com/)
 * [JitPack](https://jitpack.io/)
 
 ## Installation
