@@ -24,7 +24,7 @@ The methods described in [Method Summary](#Method-Summary), modify the values of
 private static String version;
 private static String repositoryURL;
 ```
-coded in API. This API uses jsonSimple library to work, maven dependency is in [Installation](#Installation). 
+coded in API. This API uses jsonSimple library to work, maven dependency is in [Installation](#Installation)*. 
 In case of errors with API please describe it in Issues.
 
 
@@ -78,14 +78,16 @@ Add this to your maven project in `pom.xml` file:
     </repository>
 </repositories>
 ```
+Compile scope is very important If you don't want to add dependencies manually or by using external jar files:
 ```xml
 <dependency>
     <groupId>com.github.BoyBACKS</groupId>
     <artifactId>releasesChecker-API</artifactId>
-    <version>v1.1</version>
+    <version>v1.2.1</version>
+    <scope>compile</scope>
 </dependency>
 ```
-
+<span style="color:#e00010"><b>* For v1.2.1, adding jsonSimple dependency is not required:</b></span>
 ```xml
 <dependency>
     <groupId>com.googlecode.json-simple</groupId>
